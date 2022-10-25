@@ -1,0 +1,26 @@
+.tab {
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  position: static;
+  text-align-last: center;
+}
+button {
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 14px 16px;
+}
+
+.tab button:hover {
+  background-color: bisque;
+}
+
+#content {
+  text-align-last: center;
+  margin: 25px;
+  display: none;
+}
+
+.active {
+  background-color: bisque;
+}
